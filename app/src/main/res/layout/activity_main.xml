@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/btnAddTask"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-674dp"
+        android:layout_marginEnd="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listViewTasks"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="74dp"
+        android:hint="Enter a task"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="20dp"
+        android:background="#24A4D6"
+        android:text="Add Task"
+        android:textColor="#F9F9F9" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="686dp"
+        android:text="TASKS"
+        android:textSize="24dp" />
+
+
+</RelativeLayout>
